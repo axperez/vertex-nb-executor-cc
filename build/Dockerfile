@@ -5,4 +5,4 @@ COPY requirements.txt /app/requirements.txt
 # Changing working directory to /app
 WORKDIR /app
 # Pip installing requirements.txt into the base conda environment
-RUN /opt/conda/bin/pip install -r requirements.txt
+RUN /opt/conda/bin/pip install -r requirements.txt --index-url https://repository.walmart.com/repository/pypi-proxy/simple/ --timeout 300
