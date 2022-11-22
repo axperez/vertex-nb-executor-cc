@@ -1,0 +1,7 @@
+tensorflow
+pandas
+kfp
+google-cloud-aiplatform
+gcsfs
+google-cloud-storage
+google-api-python-client==1.8.0
